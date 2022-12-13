@@ -1,0 +1,60 @@
+.intro {
+    display: flex;
+    height: 100vh;
+    padding-top: 300px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+    padding-left: 10%;
+    font-size: 25px;
+    margin-left: -50px;
+}
+
+.right {
+  display: flex;
+  width: 50%;
+  position: relative;
+
+} 
+
+.privacy-intro {
+  position: relative;
+  margin-top: 400px;
+  right: 0;
+}
+
+.right>* {
+  position: absolute;
+  z-index: 1;
+}
+
+.io {
+ height: 450px ;
+ left: 13%;
+ margin-top: -80px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .left {
+    padding-left: 0;
+  }
+  .intro .right{
+    display: none;
+  }
+  .intro .left {
+    display: flex;
+    margin: auto;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+    width: 80%;
+  }
+  .io {
+    left: 90%;
+  }
+}

@@ -1,0 +1,163 @@
+.works {
+    min-height: 115vh;
+    margin-top: 150px;
+    z-index: 989;
+}
+
+.works-img {
+    height: 254px;
+    width: 250px;
+}
+
+.privacy-works {
+    position: relative;
+    z-index: 999;
+    right: 0;
+    padding-top: 40px;
+}
+
+.sfondo-works {
+    display: flex;
+    position: absolute;
+    height: 600px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    -webkit-filter: blur(10px);
+    z-index: 1;
+    padding-top: 200px;
+}
+
+.works-top {
+    position: relative;
+    z-index: 999;
+    text-align: center;
+}
+
+.works-works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5px;
+    position: relative;
+    z-index: 999;
+}
+
+.container-works {
+    padding-top: 80px;
+}
+
+.card-works {
+    height: 400px;
+    padding: 15px;
+    margin: 40px;
+    margin-top: 90px;
+    background-color: rgb(255, 254, 254);
+    
+    z-index: 999;
+}
+
+.intro-works {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    width: 250px;
+    padding: 0 33px;
+    margin-top: -43px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: rgb(27, 27, 27, .5);
+    color: white;
+}
+
+.card-works h3 {
+    text-align: center;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    padding: 4px;
+    width: 50%;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.card-works h6 {
+    margin-top: 20px;
+    font-size: medium;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(116, 113, 113);
+}
+
+.work-href {
+    color: white;
+}
+
+.works-netify {
+    visibility: visible;
+    opacity: 0;
+    color: white;
+    font-size: 35px;
+    transform: scale(1.2);
+}
+
+.works-github {
+    visibility: hidden;
+    font-size: 40px;
+    transform: scale(1.2);
+}
+
+.show-works {
+    color: white;
+    font-size: 20px;
+}
+
+.card-works:hover {
+    cursor: pointer;
+    transition: .5s ease-in;
+    box-shadow: 0 5px 20px  rgb(223, 213, 213);
+    border-radius: 40px;
+    transition: .5s ease-in;
+} 
+
+.card-works:hover .intro-works {
+    height: 259px;
+    margin-top: -262px;
+    background-color: rgba(35, 28, 28, 0.918);
+    border-radius: 40px;
+    transition: .5s ease-in;
+}
+
+.card-works:hover .works-netify{
+    opacity: 1;
+    visibility: visible;
+}
+
+.works-netify:hover {
+    transform: scale(1);
+}
+
+.card-works:hover .works-github {
+    visibility: visible;
+}
+
+.works-github:hover {
+    transform: scale(1);
+}
+
+.card-works:hover .show-works {
+    visibility: hidden;
+}
+
+.card-works:hover .works-img {
+    border-radius: 40px;
+    transition: .5s ease-in;
+}
+
+.card-works:hover h3 {
+    width: 100%;
+    transition: .5s ease-in-out;
+    border-radius: 10px;
+}
+
